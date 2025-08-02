@@ -1,3 +1,4 @@
+
 namespace DesafioProjetoHospedagem.Models;
 
 public class Pessoa
@@ -18,4 +19,9 @@ public class Pessoa
     public string Nome { get; set; }
     public string Sobrenome { get; set; }
     public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper();
+
+    internal static void Add(List<Pessoa> hospedes)
+    {
+        throw new NotImplementedException();
+    }
 }
